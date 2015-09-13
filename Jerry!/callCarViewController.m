@@ -11,8 +11,28 @@
 @implementation callCarViewController
 
 -(void)viewDidLoad {
-    [self viewDidLoad];
-    
+    [super viewDidLoad];
+//    //NSString *urlString = ;
+//    /NSURL *url = [NSURL URLWithString:urlString];
+//    
+//    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+//    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+//    
+//    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *error)
+//    {
+//        if ([data length] > 0 && error == nil) {
+//            
+//        }
+//        else if ([data length] == 0 && error == nil) {
+//            
+//        }
+//        else if (error != nil && error.code == ERROR_CODE_TIMEOUT) {
+//            
+//        }
+//        else if (error != nil){
+//            
+//        }
+//    }];
 }
 
 -(IBAction)cancelCar:(id)sender {

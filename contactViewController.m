@@ -82,16 +82,16 @@
         NSURL *url = [NSURL URLWithString:@"facetime://16168561490"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic3"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];
+        NSURL *url = [NSURL URLWithString:@"facetime://+12405432074"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic4"]) {
         NSURL *url = [NSURL URLWithString:@"facetime://19787954939"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic5"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];
+        NSURL *url = [NSURL URLWithString:@"facetime://dexter@gmail.com"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic6"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];
+        NSURL *url = [NSURL URLWithString:@"facetime://alice@gmail.com"];
         [[UIApplication sharedApplication]openURL:url];
     }
 }

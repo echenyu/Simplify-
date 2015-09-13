@@ -207,12 +207,12 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2w-Wm-1zx">
                                 <rect key="frame" x="16" y="425" width="301" height="323"/>
-                                <state key="normal" title="Driv" backgroundImage="Car">
+                                <state key="normal" backgroundImage="Car">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yFU-rj-SPk" kind="show" id="vE8-qr-p3y"/>
+                                    <segue destination="Owp-Oe-Du1" kind="show" id="Qg5-rC-tlL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -435,6 +435,17 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bmg-zf-1gs">
                                 <rect key="frame" x="541" y="109" width="414" height="612"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prM-FQ-G6O">
+                                        <rect key="frame" x="36" y="27" width="343" height="272"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <state key="normal" title="morning" backgroundImage="secondRectangle.png">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="timeOfDayPressed:" destination="eXC-U4-m7W" eventType="touchUpInside" id="zO4-Zp-ffB"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-yB-roE">
                                         <rect key="frame" x="36" y="332" width="343" height="272"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -447,7 +458,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Morning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWH-6v-Kox">
-                                        <rect key="frame" x="123" y="56" width="146" height="60"/>
+                                        <rect key="frame" x="131" y="59" width="146" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -465,22 +476,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9am - 12pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7t-bh-goI">
-                                        <rect key="frame" x="111" y="200" width="187" height="60"/>
+                                        <rect key="frame" x="114" y="200" width="187" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prM-FQ-G6O">
-                                        <rect key="frame" x="36" y="27" width="343" height="272"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" title="morning" backgroundImage="secondRectangle.png">
-                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="timeOfDayPressed:" destination="eXC-U4-m7W" eventType="touchUpInside" id="zO4-Zp-ffB"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92549019610000005" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -1137,55 +1137,55 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ih-8j-ujw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-151" y="177"/>
+            <point key="canvasLocation" x="-289" y="-391"/>
         </scene>
         <!--Call Car View Controller-->
-        <scene sceneID="qDQ-FM-uBq">
+        <scene sceneID="2j8-oF-iH6">
             <objects>
-                <viewController id="yFU-rj-SPk" customClass="callCarViewController" sceneMemberID="viewController">
+                <viewController id="Owp-Oe-Du1" customClass="callCarViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Bp9-ny-qAC"/>
-                        <viewControllerLayoutGuide type="bottom" id="QJl-Ty-Wel"/>
+                        <viewControllerLayoutGuide type="top" id="gqf-hZ-Gpb"/>
+                        <viewControllerLayoutGuide type="bottom" id="eaS-Qe-oaS"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hdD-1f-sqg">
+                    <view key="view" contentMode="scaleToFill" id="vym-1F-Jok">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7E-S9-Zmu">
-                                <rect key="frame" x="32" y="86" width="960" height="640"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7n-F2-E6l">
+                                <rect key="frame" x="32" y="94" width="960" height="660"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zri-ka-r1J">
-                                        <rect key="frame" x="342" y="287" width="276" height="276"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your request is processing..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLz-q4-RP7">
+                                        <rect key="frame" x="163" y="24" width="635" height="160"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="35"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaH-bo-AbI">
+                                        <rect key="frame" x="342" y="248" width="276" height="276"/>
                                         <state key="normal" title="Button" backgroundImage="cancelcar.png">
                                             <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="cancelCar:" destination="yFU-rj-SPk" eventType="touchUpInside" id="MaR-Qi-2Zh"/>
+                                            <action selector="cancelCar:" destination="Owp-Oe-Du1" eventType="touchUpInside" id="JlC-5K-BwK"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to cancel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pn-3R-Pzy">
-                                        <rect key="frame" x="370" y="222" width="220" height="46"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your car is being requested..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aA-bp-H7D">
-                                        <rect key="frame" x="163" y="39" width="635" height="160"/>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to cancel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7At-bb-ABJ">
+                                        <rect key="frame" x="379" y="205" width="202" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.32941176470588235" green="0.17647058823529413" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.17254901960784313" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O4k-OP-60t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qxl-5A-j8v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-935" y="365"/>
+            <point key="canvasLocation" x="-376" y="387"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="C3V-QE-r8O">
@@ -1239,7 +1239,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQH-9x-M3w">
-                                        <rect key="frame" x="287" y="107" width="450" height="130"/>
+                                        <rect key="frame" x="262" y="110" width="500" height="130"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.6470588235294118" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="calibratedRGB"/>

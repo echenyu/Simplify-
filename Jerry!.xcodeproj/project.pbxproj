@@ -141,7 +141,7 @@
 		074393521BA5820B00203A91 /* cancelcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancelcar.png; path = Images.xcassets/cancelcar.png; sourceTree = "<group>"; };
 		074393541BA582DC00203A91 /* callCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callCarViewController.h; sourceTree = "<group>"; };
 		074393551BA582DC00203A91 /* callCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = callCarViewController.m; sourceTree = "<group>"; };
-		076D1B3B1BA3D25300415FF3 /* Jerry!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jerry!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076D1B3B1BA3D25300415FF3 /* Simplify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simplify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B3F1BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B401BA3D25300415FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		076D1B421BA3D25300415FF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 		076D1B3C1BA3D25300415FF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				076D1B3B1BA3D25300415FF3 /* Jerry!.app */,
+				076D1B3B1BA3D25300415FF3 /* Simplify.app */,
 				076D1B541BA3D25300415FF3 /* Jerry!Tests.xctest */,
 			);
 			name = Products;
@@ -382,7 +382,7 @@
 			);
 			name = "Jerry!";
 			productName = "Jerry!";
-			productReference = 076D1B3B1BA3D25300415FF3 /* Jerry!.app */;
+			productReference = 076D1B3B1BA3D25300415FF3 /* Simplify.app */;
 			productType = "com.apple.product-type.application";
 		};
 		076D1B531BA3D25300415FF3 /* Jerry!Tests */ = {
@@ -680,7 +680,7 @@
 				INFOPLIST_FILE = "Jerry!/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Simplify;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Jerry!/Jerry!-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -698,7 +698,7 @@
 				INFOPLIST_FILE = "Jerry!/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Simplify;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Jerry!/Jerry!-Bridging-Header.h";
 			};
