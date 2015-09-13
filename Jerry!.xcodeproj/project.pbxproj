@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074392881BA3F7E700203A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074392871BA3F7E700203A91 /* Security.framework */; };
+		0743928A1BA3F7F100203A91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074392891BA3F7F100203A91 /* SystemConfiguration.framework */; };
+		074392A31BA3FFCF00203A91 /* contactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392A21BA3FFCF00203A91 /* contactViewController.m */; };
+		074392AF1BA4C16500203A91 /* contactPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392AE1BA4C16500203A91 /* contactPageViewController.m */; };
+		074392C41BA4EE4500203A91 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392B91BA4EE4500203A91 /* JTSAnimatedGIFUtility.m */; };
+		074392C51BA4EE4500203A91 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392BB1BA4EE4500203A91 /* JTSImageInfo.m */; };
+		074392C61BA4EE4500203A91 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392BD1BA4EE4500203A91 /* JTSImageViewController.m */; };
+		074392C71BA4EE4500203A91 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392BF1BA4EE4500203A91 /* JTSSimpleImageDownloader.m */; };
+		074392C81BA4EE4500203A91 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392C11BA4EE4500203A91 /* UIApplication+JTSImageViewController.m */; };
+		074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392C31BA4EE4500203A91 /* UIImage+JTSImageEffects.m */; };
+		074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392CC1BA4FBF800203A91 /* imagesViewController2.m */; };
 		076D1B411BA3D25300415FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B401BA3D25300415FF3 /* main.m */; };
 		076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B431BA3D25300415FF3 /* AppDelegate.m */; };
 		076D1B471BA3D25300415FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B461BA3D25300415FF3 /* ViewController.m */; };
@@ -14,6 +25,7 @@
 		076D1B4C1BA3D25300415FF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076D1B4B1BA3D25300415FF3 /* Images.xcassets */; };
 		076D1B4F1BA3D25300415FF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076D1B4D1BA3D25300415FF3 /* LaunchScreen.xib */; };
 		076D1B5B1BA3D25300415FF3 /* Jerry_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B5A1BA3D25300415FF3 /* Jerry_Tests.m */; };
+		4E97FF2C4688AECD3628A065 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC73D8A86DFD4AE7218C4A73 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0134D66E3F91D895CAEB930C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		074392871BA3F7E700203A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		074392891BA3F7F100203A91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		074392A11BA3FFCF00203A91 /* contactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contactViewController.h; path = ../contactViewController.h; sourceTree = "<group>"; };
+		074392A21BA3FFCF00203A91 /* contactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contactViewController.m; path = ../contactViewController.m; sourceTree = "<group>"; };
+		074392AD1BA4C16500203A91 /* contactPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = contactPageViewController.h; path = ../contactPageViewController.h; sourceTree = "<group>"; };
+		074392AE1BA4C16500203A91 /* contactPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = contactPageViewController.m; path = ../contactPageViewController.m; sourceTree = "<group>"; };
+		074392B81BA4EE4500203A91 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSAnimatedGIFUtility.h; path = ../../JTSImageViewController/Source/JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		074392B91BA4EE4500203A91 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSAnimatedGIFUtility.m; path = ../../JTSImageViewController/Source/JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		074392BA1BA4EE4500203A91 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSImageInfo.h; path = ../../JTSImageViewController/Source/JTSImageInfo.h; sourceTree = "<group>"; };
+		074392BB1BA4EE4500203A91 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSImageInfo.m; path = ../../JTSImageViewController/Source/JTSImageInfo.m; sourceTree = "<group>"; };
+		074392BC1BA4EE4500203A91 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSImageViewController.h; path = ../../JTSImageViewController/Source/JTSImageViewController.h; sourceTree = "<group>"; };
+		074392BD1BA4EE4500203A91 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSImageViewController.m; path = ../../JTSImageViewController/Source/JTSImageViewController.m; sourceTree = "<group>"; };
+		074392BE1BA4EE4500203A91 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSSimpleImageDownloader.h; path = ../../JTSImageViewController/Source/JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		074392BF1BA4EE4500203A91 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSSimpleImageDownloader.m; path = ../../JTSImageViewController/Source/JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		074392C01BA4EE4500203A91 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JTSImageViewController.h"; path = "../../JTSImageViewController/Source/UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		074392C11BA4EE4500203A91 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JTSImageViewController.m"; path = "../../JTSImageViewController/Source/UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		074392C21BA4EE4500203A91 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+JTSImageEffects.h"; path = "../../JTSImageViewController/Source/UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		074392C31BA4EE4500203A91 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "../../JTSImageViewController/Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		074392CB1BA4FBF800203A91 /* imagesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imagesViewController2.h; sourceTree = "<group>"; };
+		074392CC1BA4FBF800203A91 /* imagesViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imagesViewController2.m; sourceTree = "<group>"; };
 		076D1B3B1BA3D25300415FF3 /* Jerry!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jerry!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B3F1BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B401BA3D25300415FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +73,8 @@
 		076D1B541BA3D25300415FF3 /* Jerry!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jerry!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B591BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B5A1BA3D25300415FF3 /* Jerry_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jerry_Tests.m; sourceTree = "<group>"; };
+		AFDC68AAE4DE1476F634340F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DC73D8A86DFD4AE7218C4A73 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0743928A1BA3F7F100203A91 /* SystemConfiguration.framework in Frameworks */,
+				074392881BA3F7E700203A91 /* Security.framework in Frameworks */,
+				4E97FF2C4688AECD3628A065 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +98,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074392CA1BA4EE4C00203A91 /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				074392B81BA4EE4500203A91 /* JTSAnimatedGIFUtility.h */,
+				074392B91BA4EE4500203A91 /* JTSAnimatedGIFUtility.m */,
+				074392BA1BA4EE4500203A91 /* JTSImageInfo.h */,
+				074392BB1BA4EE4500203A91 /* JTSImageInfo.m */,
+				074392BC1BA4EE4500203A91 /* JTSImageViewController.h */,
+				074392BD1BA4EE4500203A91 /* JTSImageViewController.m */,
+				074392BE1BA4EE4500203A91 /* JTSSimpleImageDownloader.h */,
+				074392BF1BA4EE4500203A91 /* JTSSimpleImageDownloader.m */,
+				074392C01BA4EE4500203A91 /* UIApplication+JTSImageViewController.h */,
+				074392C11BA4EE4500203A91 /* UIApplication+JTSImageViewController.m */,
+				074392C21BA4EE4500203A91 /* UIImage+JTSImageEffects.h */,
+				074392C31BA4EE4500203A91 /* UIImage+JTSImageEffects.m */,
+			);
+			name = JTSImageViewController;
+			sourceTree = "<group>";
+		};
+		074392CE1BA4FF4600203A91 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				074392A11BA3FFCF00203A91 /* contactViewController.h */,
+				074392A21BA3FFCF00203A91 /* contactViewController.m */,
+				074392AD1BA4C16500203A91 /* contactPageViewController.h */,
+				074392AE1BA4C16500203A91 /* contactPageViewController.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		074392CF1BA4FF7200203A91 /* Landing Page */ = {
+			isa = PBXGroup;
+			children = (
+				076D1B451BA3D25300415FF3 /* ViewController.h */,
+				076D1B461BA3D25300415FF3 /* ViewController.m */,
+			);
+			name = "Landing Page";
+			sourceTree = "<group>";
+		};
 		076D1B321BA3D25300415FF3 = {
 			isa = PBXGroup;
 			children = (
 				076D1B3D1BA3D25300415FF3 /* Jerry! */,
 				076D1B571BA3D25300415FF3 /* Jerry!Tests */,
 				076D1B3C1BA3D25300415FF3 /* Products */,
+				E7625A4FCE1DB86FCC7AB9FE /* Pods */,
+				CE5612D01EA0312F108765A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +160,14 @@
 		076D1B3D1BA3D25300415FF3 /* Jerry! */ = {
 			isa = PBXGroup;
 			children = (
+				074392CA1BA4EE4C00203A91 /* JTSImageViewController */,
 				076D1B421BA3D25300415FF3 /* AppDelegate.h */,
 				076D1B431BA3D25300415FF3 /* AppDelegate.m */,
-				076D1B451BA3D25300415FF3 /* ViewController.h */,
-				076D1B461BA3D25300415FF3 /* ViewController.m */,
+				074392CE1BA4FF4600203A91 /* Contact */,
+				074392CF1BA4FF7200203A91 /* Landing Page */,
 				076D1B481BA3D25300415FF3 /* Main.storyboard */,
+				074392CB1BA4FBF800203A91 /* imagesViewController2.h */,
+				074392CC1BA4FBF800203A91 /* imagesViewController2.m */,
 				076D1B4B1BA3D25300415FF3 /* Images.xcassets */,
 				076D1B4D1BA3D25300415FF3 /* LaunchScreen.xib */,
 				076D1B3E1BA3D25300415FF3 /* Supporting Files */,
@@ -119,6 +201,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE5612D01EA0312F108765A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074392891BA3F7F100203A91 /* SystemConfiguration.framework */,
+				074392871BA3F7E700203A91 /* Security.framework */,
+				DC73D8A86DFD4AE7218C4A73 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7625A4FCE1DB86FCC7AB9FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0134D66E3F91D895CAEB930C /* Pods.debug.xcconfig */,
+				AFDC68AAE4DE1476F634340F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 076D1B5E1BA3D25300415FF3 /* Build configuration list for PBXNativeTarget "Jerry!" */;
 			buildPhases = (
+				2C790EF0F3565F576F8E127F /* Check Pods Manifest.lock */,
 				076D1B371BA3D25300415FF3 /* Sources */,
 				076D1B381BA3D25300415FF3 /* Frameworks */,
 				076D1B391BA3D25300415FF3 /* Resources */,
+				5D86789CA149F7ACF475373B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +271,7 @@
 				TargetAttributes = {
 					076D1B3A1BA3D25300415FF3 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8K49CS2YDY;
 					};
 					076D1B531BA3D25300415FF3 = {
 						CreatedOnToolsVersion = 6.4;
@@ -214,14 +318,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C790EF0F3565F576F8E127F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D86789CA149F7ACF475373B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		076D1B371BA3D25300415FF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				076D1B471BA3D25300415FF3 /* ViewController.m in Sources */,
+				074392C51BA4EE4500203A91 /* JTSImageInfo.m in Sources */,
+				074392A31BA3FFCF00203A91 /* contactViewController.m in Sources */,
 				076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */,
+				074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */,
 				076D1B411BA3D25300415FF3 /* main.m in Sources */,
+				074392C61BA4EE4500203A91 /* JTSImageViewController.m in Sources */,
+				074392C41BA4EE4500203A91 /* JTSAnimatedGIFUtility.m in Sources */,
+				074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */,
+				074392C71BA4EE4500203A91 /* JTSSimpleImageDownloader.m in Sources */,
+				074392AF1BA4C16500203A91 /* contactPageViewController.m in Sources */,
+				074392C81BA4EE4500203A91 /* UIApplication+JTSImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,21 +493,36 @@
 		};
 		076D1B5F1BA3D25300415FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0134D66E3F91D895CAEB930C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Jerry!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jerry!/Jerry!-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		076D1B601BA3D25300415FF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC68AAE4DE1476F634340F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Jerry!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jerry!/Jerry!-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +579,7 @@
 				076D1B601BA3D25300415FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		076D1B611BA3D25300415FF3 /* Build configuration list for PBXNativeTarget "Jerry!Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +588,7 @@
 				076D1B631BA3D25300415FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
