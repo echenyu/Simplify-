@@ -45,6 +45,8 @@
     self.rectangle1.clipsToBounds = YES;
     self.rectangle2.layer.cornerRadius = self.rectangle2.frame.size.width/37;
     self.rectangle2.clipsToBounds = YES;
+    [self.navigationItem.rightBarButtonItem setImage:[UIImage imageNamed:@"home.png"]];
+
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

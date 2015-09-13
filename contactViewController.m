@@ -45,7 +45,7 @@
     self.pic6.layer.borderWidth = 3.0;
     self.pic6.layer.borderColor = [[UIColor whiteColor]CGColor];
 
-    
+    [self.navigationItem.rightBarButtonItem setImage:[UIImage imageNamed:@"home.png"]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

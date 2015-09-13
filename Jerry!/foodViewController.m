@@ -16,6 +16,7 @@
     
     [_foodImageView setImage: _foodImage];
     self.navigationItem.hidesBackButton = YES;
+
     
 }
 
@@ -23,6 +24,7 @@
     orderConfirmedViewController *destination = [segue destinationViewController];
     
     [destination setFoodImage:_foodImage];
+    [destination setFoodItem:_foodItem];
 }
 
 -(IBAction)noButton:(id)sender {

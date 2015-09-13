@@ -37,6 +37,9 @@
 		074393261BA537BA00203A91 /* maidLandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393251BA537BA00203A91 /* maidLandingPageViewController.m */; };
 		074393291BA5382D00203A91 /* Rectangle 257.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393281BA5382D00203A91 /* Rectangle 257.png */; };
 		0743932C1BA5449A00203A91 /* orderConfirmedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */; };
+		0743932F1BA5474E00203A91 /* cleaningTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743932E1BA5474E00203A91 /* cleaningTimeViewController.m */; };
+		074393321BA5481700203A91 /* confirmedCleaningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393311BA5481700203A91 /* confirmedCleaningViewController.m */; };
+		074393341BA54B5000203A91 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393331BA54B5000203A91 /* checkmark.png */; };
 		076D1B411BA3D25300415FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B401BA3D25300415FF3 /* main.m */; };
 		076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B431BA3D25300415FF3 /* AppDelegate.m */; };
 		076D1B471BA3D25300415FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B461BA3D25300415FF3 /* ViewController.m */; };
@@ -103,6 +106,11 @@
 		074393281BA5382D00203A91 /* Rectangle 257.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 257.png"; path = "Images.xcassets/Rectangle 257.png"; sourceTree = "<group>"; };
 		0743932A1BA5449A00203A91 /* orderConfirmedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderConfirmedViewController.h; sourceTree = "<group>"; };
 		0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderConfirmedViewController.m; sourceTree = "<group>"; };
+		0743932D1BA5474E00203A91 /* cleaningTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cleaningTimeViewController.h; sourceTree = "<group>"; };
+		0743932E1BA5474E00203A91 /* cleaningTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cleaningTimeViewController.m; sourceTree = "<group>"; };
+		074393301BA5481700203A91 /* confirmedCleaningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confirmedCleaningViewController.h; sourceTree = "<group>"; };
+		074393311BA5481700203A91 /* confirmedCleaningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = confirmedCleaningViewController.m; sourceTree = "<group>"; };
+		074393331BA54B5000203A91 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark.png; path = Images.xcassets/checkmark.png; sourceTree = "<group>"; };
 		076D1B3B1BA3D25300415FF3 /* Jerry!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jerry!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B3F1BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B401BA3D25300415FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -185,12 +193,12 @@
 		0743931E1BA5356B00203A91 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				0743931F1BA5358800203A91 /* chooseFoodViewController.h */,
+				074393201BA5358800203A91 /* chooseFoodViewController.m */,
 				074393181BA534C900203A91 /* foodViewController.h */,
 				074393191BA534C900203A91 /* foodViewController.m */,
 				0743932A1BA5449A00203A91 /* orderConfirmedViewController.h */,
 				0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */,
-				0743931F1BA5358800203A91 /* chooseFoodViewController.h */,
-				074393201BA5358800203A91 /* chooseFoodViewController.m */,
 			);
 			name = Food;
 			sourceTree = "<group>";
@@ -200,6 +208,10 @@
 			children = (
 				074393241BA537BA00203A91 /* maidLandingPageViewController.h */,
 				074393251BA537BA00203A91 /* maidLandingPageViewController.m */,
+				0743932D1BA5474E00203A91 /* cleaningTimeViewController.h */,
+				0743932E1BA5474E00203A91 /* cleaningTimeViewController.m */,
+				074393301BA5481700203A91 /* confirmedCleaningViewController.h */,
+				074393311BA5481700203A91 /* confirmedCleaningViewController.m */,
 			);
 			name = "Maid Service";
 			sourceTree = "<group>";
@@ -247,6 +259,7 @@
 		076D1B3E1BA3D25300415FF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				074393331BA54B5000203A91 /* checkmark.png */,
 				074393281BA5382D00203A91 /* Rectangle 257.png */,
 				074393221BA5379E00203A91 /* Grace.png */,
 				074393141BA5342D00203A91 /* greenoval.png */,
@@ -403,6 +416,7 @@
 				076D1B4C1BA3D25300415FF3 /* Images.xcassets in Resources */,
 				074393231BA5379E00203A91 /* Grace.png in Resources */,
 				0743930F1BA5334700203A91 /* chickenalone.png in Resources */,
+				074393341BA54B5000203A91 /* checkmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,10 +473,12 @@
 				074392A31BA3FFCF00203A91 /* contactViewController.m in Sources */,
 				076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */,
 				074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */,
+				0743932F1BA5474E00203A91 /* cleaningTimeViewController.m in Sources */,
 				076D1B411BA3D25300415FF3 /* main.m in Sources */,
 				074392C61BA4EE4500203A91 /* JTSImageViewController.m in Sources */,
 				0743931A1BA534C900203A91 /* foodViewController.m in Sources */,
 				074392C41BA4EE4500203A91 /* JTSAnimatedGIFUtility.m in Sources */,
+				074393321BA5481700203A91 /* confirmedCleaningViewController.m in Sources */,
 				074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */,
 				074393211BA5358800203A91 /* chooseFoodViewController.m in Sources */,
 				074392C71BA4EE4500203A91 /* JTSSimpleImageDownloader.m in Sources */,

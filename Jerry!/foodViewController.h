@@ -12,4 +12,5 @@
 
 @property (nonatomic, strong) UIImage *foodImage;
 @property (nonatomic, strong) IBOutlet UIImageView *foodImageView;
+@property (nonatomic, strong) NSString *foodItem; 
 @end

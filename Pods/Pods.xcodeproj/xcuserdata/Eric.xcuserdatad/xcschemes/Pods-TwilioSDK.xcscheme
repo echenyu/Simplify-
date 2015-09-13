@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2F0BCA13ED33F0656DC4856"
+               BlueprintIdentifier = "49CFCE5F2C1B321ADECE1D91"
                BuildableName = "libPods-TwilioSDK.a"
                BlueprintName = "Pods-TwilioSDK"
                ReferencedContainer = "container:Pods.xcodeproj">

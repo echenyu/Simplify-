@@ -268,6 +268,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="zUV-JD-WeV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXl-9k-dIs">
                                         <rect key="frame" x="25" y="577" width="384" height="68"/>
@@ -276,6 +279,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="bLM-MV-va2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whf-Mv-pQt">
                                         <rect key="frame" x="25" y="486" width="384" height="68"/>
@@ -284,6 +290,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="8gI-wb-8K3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Iw-E9-lQK">
                                         <rect key="frame" x="25" y="119" width="384" height="68"/>
@@ -292,6 +301,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="bCF-Ji-1S7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5a6-F1-SdM">
                                         <rect key="frame" x="25" y="207" width="384" height="68"/>
@@ -300,6 +312,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="UUa-zl-j1g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rg7-rf-YyI">
                                         <rect key="frame" x="25" y="392" width="384" height="68"/>
@@ -308,6 +323,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="r67-jN-Nll"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upt-rO-ra8">
                                         <rect key="frame" x="25" y="298" width="384" height="68"/>
@@ -316,6 +334,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="dayPressed:" destination="Ick-7C-Hsj" eventType="touchUpInside" id="CWi-F5-lEz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
@@ -326,17 +347,18 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <segue destination="eXC-U4-m7W" kind="show" id="K6m-95-OeM"/>
+                        <outlet property="profilePicture" destination="GAz-jW-qZ9" id="6gN-e4-ZQZ"/>
+                        <segue destination="eXC-U4-m7W" kind="show" identifier="cleaning" id="K6m-95-OeM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cX4-oR-ZSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="734" y="983"/>
         </scene>
-        <!--View Controller-->
+        <!--Cleaning Time View Controller-->
         <scene sceneID="ete-IP-piz">
             <objects>
-                <viewController id="eXC-U4-m7W" sceneMemberID="viewController">
+                <viewController id="eXC-U4-m7W" customClass="cleaningTimeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F24-DM-DT1"/>
                         <viewControllerLayoutGuide type="bottom" id="MOK-ZG-dVp"/>
@@ -367,18 +389,24 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="prM-FQ-G6O">
                                         <rect key="frame" x="25" y="28" width="343" height="272"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" backgroundImage="Rectangle 257.png">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="morning" backgroundImage="Rectangle 257.png">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="timeOfDayPressed:" destination="eXC-U4-m7W" eventType="touchUpInside" id="zO4-Zp-ffB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-yB-roE">
                                         <rect key="frame" x="36" y="332" width="343" height="272"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <state key="normal" backgroundImage="Rectangle 257.png">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="afternoon" backgroundImage="Rectangle 257.png">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="timeOfDayPressed:" destination="eXC-U4-m7W" eventType="touchUpInside" id="rpz-z3-dek"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Morning" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWH-6v-Kox">
                                         <rect key="frame" x="123" y="56" width="146" height="60"/>
@@ -413,17 +441,18 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <segue destination="sJp-Pf-s0D" kind="show" id="gBO-29-cgm"/>
+                        <outlet property="profilePicture" destination="rUy-1k-UCH" id="al7-ku-0gw"/>
+                        <segue destination="sJp-Pf-s0D" kind="show" identifier="cleanConfirm" id="gBO-29-cgm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsy-rA-qkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="761" y="1923"/>
         </scene>
-        <!--View Controller-->
+        <!--Confirmed Cleaning View Controller-->
         <scene sceneID="lUi-YT-WeK">
             <objects>
-                <viewController id="sJp-Pf-s0D" sceneMemberID="viewController">
+                <viewController id="sJp-Pf-s0D" customClass="confirmedCleaningViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vhA-WV-36h"/>
                         <viewControllerLayoutGuide type="bottom" id="LY0-sq-cBz"/>
@@ -435,35 +464,32 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEY-Z6-rXn">
                                 <rect key="frame" x="16" y="105" width="992" height="612"/>
                                 <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qkX-Ml-Xxl">
+                                        <rect key="frame" x="77" y="131" width="350" height="350"/>
+                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YiZ-qg-ild">
-                                        <rect key="frame" x="333" y="59" width="326" height="326"/>
+                                        <rect key="frame" x="586" y="14" width="326" height="326"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zye-R6-qi0">
-                                        <rect key="frame" x="450" y="393" width="93" height="42"/>
+                                        <rect key="frame" x="703" y="348" width="93" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="0.99800701530000002" green="0.99800701530000002" blue="0.99800701530000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Day Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ys6-hh-wFN">
-                                        <rect key="frame" x="118" y="400" width="179" height="102"/>
+                                        <rect key="frame" x="660" y="380" width="179" height="102"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="0.99800701530000002" green="0.99800701530000002" blue="0.99800701530000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYv-Im-TVy">
-                                        <rect key="frame" x="109" y="497" width="197" height="56"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                        <color key="textColor" red="0.99800701530000002" green="0.99800701530000002" blue="0.99800701530000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time of Day" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elX-yc-YKh">
-                                        <rect key="frame" x="716" y="400" width="183" height="102"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time of Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elX-yc-YKh">
+                                        <rect key="frame" x="658" y="433" width="183" height="102"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="0.99800701530000002" green="0.99800701530000002" blue="0.99800701530000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8y-0P-mkc">
-                                        <rect key="frame" x="716" y="474" width="183" height="102"/>
+                                        <rect key="frame" x="614" y="483" width="270" height="102"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" red="0.99800701530000002" green="0.99800701530000002" blue="0.99800701530000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -474,6 +500,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="checkMark" destination="qkX-Ml-Xxl" id="6zL-rE-rmt"/>
+                        <outlet property="dayLabel" destination="ys6-hh-wFN" id="tTq-as-AdA"/>
+                        <outlet property="profilePicture" destination="YiZ-qg-ild" id="BNA-8J-Ngv"/>
+                        <outlet property="timeLabel" destination="a8y-0P-mkc" id="J1J-Xw-yta"/>
+                        <outlet property="timeOfDayLabel" destination="elX-yc-YKh" id="rhE-KB-iO3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GH6-3E-2W3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

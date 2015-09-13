@@ -1,5 +1,5 @@
 //
-//  maidLandingPageViewController.h
+//  cleaningTimeViewController.h
 //  Jerry!
 //
 //  Created by Eric Yu on 9/13/15.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface maidLandingPageViewController : UIViewController
+@interface cleaningTimeViewController : UIViewController
 
+@property (nonatomic, strong) NSString *dayString;
 @property (nonatomic, strong) IBOutlet UIImageView *profilePicture;
 
 

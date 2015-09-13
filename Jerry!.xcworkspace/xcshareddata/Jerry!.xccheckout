@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A552740D-5944-49C2-96FB-CDD8D9820F81</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Jerry!</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80DA628EAE81E418FCA5040B6FD2F14B521C07CB</key>
+		<string>https://github.com/jaredsinclair/JTSImageViewController.git</string>
+		<key>D957927E5A0F884D158B8DD4C26B29B2D52C1F63</key>
+		<string>https://github.com/echenyu/Simplify.git</string>
+		<key>E3FCD246724150C4A848A548465FFEC625350E4F</key>
+		<string>https://github.com/echenyu/Jerry-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Jerry!.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80DA628EAE81E418FCA5040B6FD2F14B521C07CB</key>
+		<string>../../JTSImageViewController</string>
+		<key>D957927E5A0F884D158B8DD4C26B29B2D52C1F63</key>
+		<string>../..</string>
+		<key>E3FCD246724150C4A848A548465FFEC625350E4F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/echenyu/Jerry-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3FCD246724150C4A848A548465FFEC625350E4F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D957927E5A0F884D158B8DD4C26B29B2D52C1F63</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3FCD246724150C4A848A548465FFEC625350E4F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Jerry!</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80DA628EAE81E418FCA5040B6FD2F14B521C07CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JTSImageViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>
