@@ -20,42 +20,40 @@
 }
 
 -(void)setup {
-    UIButton *favButton = [[UIButton alloc] init];
-    
-    [favButton setImage:[UIImage imageNamed:@"home.png"] forState:UIControlStateNormal];
-    [favButton addTarget:self action:@selector(favouriteButtonClicked)
-        forControlEvents:UIControlEventTouchUpInside];
-    
-    UIBarButtonItem *button = [[UIBarButtonItem alloc]
-                               initWithCustomView:favButton];
-    
-    self.navigationItem.rightBarButtonItem = button;
-}
+    UIImage *faceImage = [UIImage imageNamed:@"homebutton.png"];
+    UIButton *face = [UIButton buttonWithType:UIButtonTypeCustom];
+    face.bounds = CGRectMake( 10, 0, 40, 40);//set bound as per you want
+    [face addTarget:self action:@selector(backHome) forControlEvents:UIControlEventTouchUpInside];
+    [face setImage:faceImage forState:UIControlStateNormal];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:face];
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.title = @"Service";
 
--(void)favouriteButtonClicked {
-    
+}
+-(void)backHome {
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     cleaningTimeViewController *destination = [segue destinationViewController];
     if([[sender currentTitle] isEqualToString:@"Monday"]) {
-        [destination setDayString: @"Monday"];
+        [destination setDayString: @"Monday "];
     }else if([[sender currentTitle] isEqualToString:@"Tuesday"]) {
-        [destination setDayString: @"Tuesday"];
+        [destination setDayString: @"Tuesday "];
 
     } else if([[sender currentTitle] isEqualToString:@"Wednesday"]){
-        [destination setDayString: @"Wednesday"];
+        [destination setDayString: @"Wednesday "];
 
     } else if([[sender currentTitle] isEqualToString:@"Thursday"]) {
-        [destination setDayString: @"Thursday"];
+        [destination setDayString: @"Thursday "];
 
     } else if([[sender currentTitle] isEqualToString:@"Friday"]) {
-        [destination setDayString: @"Friday"];
+        [destination setDayString: @"Friday "];
 
     } else if([[sender currentTitle] isEqualToString:@"Saturday"]) {
-        [destination setDayString: @"Saturday"];
+        [destination setDayString: @"Saturday "];
 
     } else if([[sender currentTitle] isEqualToString:@"Sunday"]) {
-        [destination setDayString: @"Sunday"];
+        [destination setDayString: @"Sunday "];
 
     }
     

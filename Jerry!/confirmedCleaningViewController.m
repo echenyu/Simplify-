@@ -15,6 +15,10 @@
 -(void) viewDidLoad {
     [super viewDidLoad];
     [self setup];
+    self.navigationItem.hidesBackButton = YES;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    });
 }
 
 -(void)setup {
@@ -24,15 +28,19 @@
     [self.checkMark setImage:[UIImage imageNamed:@"checkmark.png"]];
     [self.profilePicture setImage:[UIImage imageNamed:@"Grace.png"]];
     [self.navigationItem.rightBarButtonItem setImage:[UIImage imageNamed:@"home.png"]];
-    
+    self.title = @"Service";
+
     [self getMaidService];
+    
 }
 
 -(void)getMaidService {
+    NSString *string = [self.dayString stringByAppendingString:self.time];
+    NSString *finalString = [string stringByAppendingString:@". You have a request for maid service!"];
     PFObject *maidService = [PFObject objectWithClassName:@"user_calls"];
-    [maidService setObject:@"cookies" forKey:@"call_script"];
-    [maidService setObject:@"food" forKey:@"call_type"];
-    [maidService setObject:@"+17348348105" forKey:@"phone_number"];
+    [maidService setObject:finalString forKey:@"call_script"];
+    [maidService setObject:@"maid" forKey:@"call_type"];
+    [maidService setObject:@"+16168561490" forKey:@"phone_number"];
     
     [maidService saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (succeeded) {
@@ -46,5 +54,7 @@
     }];
 
 }
+
+
 
 @end

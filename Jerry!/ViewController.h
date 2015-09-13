@@ -10,7 +10,7 @@
 #import <OAUthiOS/OAuthiOS.h>
 
 
-@interface ViewController : UIViewController <UIAlertViewDelegate, OAuthIODelegate>
+@interface ViewController : UIViewController <OAuthIODelegate>
 
 @property (nonatomic, strong) IBOutlet UIButton *emergencyCall;
 @property (nonatomic, weak) IBOutlet UIButton *blah;

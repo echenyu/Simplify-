@@ -15,13 +15,13 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
-    [_foodImageView setImage: _foodImage];
+    [_foodImageView setImage: [UIImage imageNamed:@"checkmark.png" ]];
     self.navigationItem.hidesBackButton = YES;
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self.navigationController popToRootViewControllerAnimated:YES];
     });
-    
+    self.title = @"Meals";
     [self getPizza];
 }
 

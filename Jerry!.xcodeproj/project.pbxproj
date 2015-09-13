@@ -40,6 +40,19 @@
 		0743932F1BA5474E00203A91 /* cleaningTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743932E1BA5474E00203A91 /* cleaningTimeViewController.m */; };
 		074393321BA5481700203A91 /* confirmedCleaningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393311BA5481700203A91 /* confirmedCleaningViewController.m */; };
 		074393341BA54B5000203A91 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393331BA54B5000203A91 /* checkmark.png */; };
+		074393361BA55E5600203A91 /* homebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393351BA55E5600203A91 /* homebutton.png */; };
+		0743933A1BA561DC00203A91 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393391BA561DC00203A91 /* Settings.png */; };
+		0743933D1BA5621D00203A91 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743933C1BA5621D00203A91 /* settingsViewController.m */; };
+		0743933F1BA5645100203A91 /* secondRectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743933E1BA5645100203A91 /* secondRectangle.png */; };
+		074393421BA56B6D00203A91 /* messageSentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393411BA56B6D00203A91 /* messageSentViewController.m */; };
+		074393451BA56F3600203A91 /* Rectangle 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393431BA56F3600203A91 /* Rectangle 167.png */; };
+		074393461BA56F3600203A91 /* Rectangle 168.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393441BA56F3600203A91 /* Rectangle 168.png */; };
+		074393491BA56FD200203A91 /* ambulanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393481BA56FD200203A91 /* ambulanceViewController.m */; };
+		0743934C1BA573CB00203A91 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743934A1BA573CB00203A91 /* backbutton.png */; };
+		0743934D1BA573CB00203A91 /* nextbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743934B1BA573CB00203A91 /* nextbutton.png */; };
+		0743934F1BA57B1C00203A91 /* settings2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743934E1BA57B1C00203A91 /* settings2.png */; };
+		074393531BA5820B00203A91 /* cancelcar.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393521BA5820B00203A91 /* cancelcar.png */; };
+		074393561BA582DC00203A91 /* callCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393551BA582DC00203A91 /* callCarViewController.m */; };
 		076D1B411BA3D25300415FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B401BA3D25300415FF3 /* main.m */; };
 		076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B431BA3D25300415FF3 /* AppDelegate.m */; };
 		076D1B471BA3D25300415FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B461BA3D25300415FF3 /* ViewController.m */; };
@@ -111,6 +124,23 @@
 		074393301BA5481700203A91 /* confirmedCleaningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = confirmedCleaningViewController.h; sourceTree = "<group>"; };
 		074393311BA5481700203A91 /* confirmedCleaningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = confirmedCleaningViewController.m; sourceTree = "<group>"; };
 		074393331BA54B5000203A91 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark.png; path = Images.xcassets/checkmark.png; sourceTree = "<group>"; };
+		074393351BA55E5600203A91 /* homebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homebutton.png; path = Images.xcassets/homebutton.png; sourceTree = "<group>"; };
+		074393391BA561DC00203A91 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Images.xcassets/Settings.png; sourceTree = "<group>"; };
+		0743933B1BA5621D00203A91 /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		0743933C1BA5621D00203A91 /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
+		0743933E1BA5645100203A91 /* secondRectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = secondRectangle.png; path = Images.xcassets/secondRectangle.png; sourceTree = "<group>"; };
+		074393401BA56B6D00203A91 /* messageSentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageSentViewController.h; sourceTree = "<group>"; };
+		074393411BA56B6D00203A91 /* messageSentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageSentViewController.m; sourceTree = "<group>"; };
+		074393431BA56F3600203A91 /* Rectangle 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 167.png"; path = "Images.xcassets/Rectangle 167.png"; sourceTree = "<group>"; };
+		074393441BA56F3600203A91 /* Rectangle 168.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 168.png"; path = "Images.xcassets/Rectangle 168.png"; sourceTree = "<group>"; };
+		074393471BA56FD200203A91 /* ambulanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ambulanceViewController.h; sourceTree = "<group>"; };
+		074393481BA56FD200203A91 /* ambulanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ambulanceViewController.m; sourceTree = "<group>"; };
+		0743934A1BA573CB00203A91 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton.png; path = Images.xcassets/backbutton.png; sourceTree = "<group>"; };
+		0743934B1BA573CB00203A91 /* nextbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nextbutton.png; path = Images.xcassets/nextbutton.png; sourceTree = "<group>"; };
+		0743934E1BA57B1C00203A91 /* settings2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings2.png; path = Images.xcassets/settings2.png; sourceTree = "<group>"; };
+		074393521BA5820B00203A91 /* cancelcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancelcar.png; path = Images.xcassets/cancelcar.png; sourceTree = "<group>"; };
+		074393541BA582DC00203A91 /* callCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callCarViewController.h; sourceTree = "<group>"; };
+		074393551BA582DC00203A91 /* callCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = callCarViewController.m; sourceTree = "<group>"; };
 		076D1B3B1BA3D25300415FF3 /* Jerry!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jerry!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B3F1BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B401BA3D25300415FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -171,12 +201,16 @@
 		074392CE1BA4FF4600203A91 /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				074392CB1BA4FBF800203A91 /* imagesViewController2.h */,
+				074392CC1BA4FBF800203A91 /* imagesViewController2.m */,
 				074392A11BA3FFCF00203A91 /* contactViewController.h */,
 				074392A21BA3FFCF00203A91 /* contactViewController.m */,
 				074393011BA52F3600203A91 /* messageViewController.h */,
 				074393021BA52F3600203A91 /* messageViewController.m */,
 				074392AD1BA4C16500203A91 /* contactPageViewController.h */,
 				074392AE1BA4C16500203A91 /* contactPageViewController.m */,
+				074393401BA56B6D00203A91 /* messageSentViewController.h */,
+				074393411BA56B6D00203A91 /* messageSentViewController.m */,
 			);
 			name = Contact;
 			sourceTree = "<group>";
@@ -245,10 +279,14 @@
 				074392CE1BA4FF4600203A91 /* Contact */,
 				074392CF1BA4FF7200203A91 /* Landing Page */,
 				076D1B481BA3D25300415FF3 /* Main.storyboard */,
+				074393471BA56FD200203A91 /* ambulanceViewController.h */,
+				074393481BA56FD200203A91 /* ambulanceViewController.m */,
+				074393541BA582DC00203A91 /* callCarViewController.h */,
+				074393551BA582DC00203A91 /* callCarViewController.m */,
 				074393271BA537D700203A91 /* Maid Service */,
 				0743931E1BA5356B00203A91 /* Food */,
-				074392CB1BA4FBF800203A91 /* imagesViewController2.h */,
-				074392CC1BA4FBF800203A91 /* imagesViewController2.m */,
+				0743933B1BA5621D00203A91 /* settingsViewController.h */,
+				0743933C1BA5621D00203A91 /* settingsViewController.m */,
 				076D1B4B1BA3D25300415FF3 /* Images.xcassets */,
 				076D1B4D1BA3D25300415FF3 /* LaunchScreen.xib */,
 				076D1B3E1BA3D25300415FF3 /* Supporting Files */,
@@ -259,6 +297,15 @@
 		076D1B3E1BA3D25300415FF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				074393521BA5820B00203A91 /* cancelcar.png */,
+				0743934E1BA57B1C00203A91 /* settings2.png */,
+				0743934A1BA573CB00203A91 /* backbutton.png */,
+				0743934B1BA573CB00203A91 /* nextbutton.png */,
+				074393431BA56F3600203A91 /* Rectangle 167.png */,
+				074393441BA56F3600203A91 /* Rectangle 168.png */,
+				0743933E1BA5645100203A91 /* secondRectangle.png */,
+				074393391BA561DC00203A91 /* Settings.png */,
+				074393351BA55E5600203A91 /* homebutton.png */,
 				074393331BA54B5000203A91 /* checkmark.png */,
 				074393281BA5382D00203A91 /* Rectangle 257.png */,
 				074393221BA5379E00203A91 /* Grace.png */,
@@ -399,15 +446,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0743933A1BA561DC00203A91 /* Settings.png in Resources */,
+				074393451BA56F3600203A91 /* Rectangle 167.png in Resources */,
 				074393291BA5382D00203A91 /* Rectangle 257.png in Resources */,
 				074393051BA5317100203A91 /* Pizza.png in Resources */,
+				0743934D1BA573CB00203A91 /* nextbutton.png in Resources */,
 				074393161BA5342D00203A91 /* greenoval.png in Resources */,
 				074392FE1BA528D700203A91 /* home.png in Resources */,
+				0743934C1BA573CB00203A91 /* backbutton.png in Resources */,
 				074393171BA5342D00203A91 /* redoval.png in Resources */,
 				074393001BA529EA00203A91 /* Messageme.png in Resources */,
+				074393531BA5820B00203A91 /* cancelcar.png in Resources */,
 				074393101BA5334700203A91 /* pizzaalone.png in Resources */,
 				074393091BA5321100203A91 /* Dumpling.png in Resources */,
 				074393111BA5334700203A91 /* tofualone.png in Resources */,
+				0743934F1BA57B1C00203A91 /* settings2.png in Resources */,
+				0743933F1BA5645100203A91 /* secondRectangle.png in Resources */,
+				074393361BA55E5600203A91 /* homebutton.png in Resources */,
 				076D1B4A1BA3D25300415FF3 /* Main.storyboard in Resources */,
 				0743930A1BA5321100203A91 /* Generaltso.png in Resources */,
 				074393131BA5336E00203A91 /* dumplingalone.png in Resources */,
@@ -415,6 +470,7 @@
 				076D1B4F1BA3D25300415FF3 /* LaunchScreen.xib in Resources */,
 				076D1B4C1BA3D25300415FF3 /* Images.xcassets in Resources */,
 				074393231BA5379E00203A91 /* Grace.png in Resources */,
+				074393461BA56F3600203A91 /* Rectangle 168.png in Resources */,
 				0743930F1BA5334700203A91 /* chickenalone.png in Resources */,
 				074393341BA54B5000203A91 /* checkmark.png in Resources */,
 			);
@@ -470,7 +526,9 @@
 				076D1B471BA3D25300415FF3 /* ViewController.m in Sources */,
 				074393031BA52F3600203A91 /* messageViewController.m in Sources */,
 				074392C51BA4EE4500203A91 /* JTSImageInfo.m in Sources */,
+				074393421BA56B6D00203A91 /* messageSentViewController.m in Sources */,
 				074392A31BA3FFCF00203A91 /* contactViewController.m in Sources */,
+				074393491BA56FD200203A91 /* ambulanceViewController.m in Sources */,
 				076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */,
 				074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */,
 				0743932F1BA5474E00203A91 /* cleaningTimeViewController.m in Sources */,
@@ -480,8 +538,10 @@
 				074392C41BA4EE4500203A91 /* JTSAnimatedGIFUtility.m in Sources */,
 				074393321BA5481700203A91 /* confirmedCleaningViewController.m in Sources */,
 				074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */,
+				074393561BA582DC00203A91 /* callCarViewController.m in Sources */,
 				074393211BA5358800203A91 /* chooseFoodViewController.m in Sources */,
 				074392C71BA4EE4500203A91 /* JTSSimpleImageDownloader.m in Sources */,
+				0743933D1BA5621D00203A91 /* settingsViewController.m in Sources */,
 				074392AF1BA4C16500203A91 /* contactPageViewController.m in Sources */,
 				074393261BA537BA00203A91 /* maidLandingPageViewController.m in Sources */,
 				074392C81BA4EE4500203A91 /* UIApplication+JTSImageViewController.m in Sources */,

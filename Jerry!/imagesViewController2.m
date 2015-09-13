@@ -44,14 +44,26 @@
             [self.photosArray addObject:asset];
         }
     }
-    NSLog(@"%i", [self.photosArray count]);
+    UIImage *faceImage = [UIImage imageNamed:@"homebutton.png"];
+    UIButton *face = [UIButton buttonWithType:UIButtonTypeCustom];
+    face.bounds = CGRectMake( 10, 0, 40, 40);//set bound as per you want
+    [face addTarget:self action:@selector(backHome) forControlEvents:UIControlEventTouchUpInside];
+    [face setImage:faceImage forState:UIControlStateNormal];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:face];
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.title = @"Photos";
     [self loadPhotos];
+}
+
+-(void)backHome {
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 -(void) loadPhotos {
     PHImageManager *manager = [PHImageManager defaultManager];
     NSMutableArray *temp = [[NSMutableArray alloc]init];
     __block UIImage *imageData;
+
     for(int i = count; i < count+6; i++) {
         [manager requestImageForAsset:[self.photosArray objectAtIndex:i]
                            targetSize:PHImageManagerMaximumSize

@@ -46,12 +46,28 @@
     self.pic6.layer.borderColor = [[UIColor whiteColor]CGColor];
 
     [self.navigationItem.rightBarButtonItem setImage:[UIImage imageNamed:@"home.png"]];
+    [self setup];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setup {
+    UIImage *faceImage = [UIImage imageNamed:@"homebutton.png"];
+    UIButton *face = [UIButton buttonWithType:UIButtonTypeCustom];
+    face.bounds = CGRectMake( 10, 0, 40, 40);//set bound as per you want
+    [face addTarget:self action:@selector(backHome) forControlEvents:UIControlEventTouchUpInside];
+    [face setImage:faceImage forState:UIControlStateNormal];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:face];
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.title = @"Contacts";
+}
+-(void)backHome {
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 -(IBAction)pic1:(id)sender {
@@ -63,13 +79,13 @@
         NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic2"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://17813924277"];
+        NSURL *url = [NSURL URLWithString:@"facetime://16168561490"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic3"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://19787954939"];
+        NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic4"]) {
-        NSURL *url = [NSURL URLWithString:@"facetime://16168561490"];
+        NSURL *url = [NSURL URLWithString:@"facetime://19787954939"];
         [[UIApplication sharedApplication]openURL:url];
     } else if([[sender currentTitle] isEqualToString:@"pic5"]) {
         NSURL *url = [NSURL URLWithString:@"facetime://17348348105"];

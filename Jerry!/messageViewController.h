@@ -15,7 +15,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *pic4;
 @property (nonatomic, strong) IBOutlet UIView *rectangle1;
 @property (nonatomic, strong) IBOutlet UIView *rectangle2;
-@property (nonatomic, strong) IBOutlet UILabel *numberUnread;
 @property (nonatomic, strong) IBOutlet UIView *unreadMessages;
 
 

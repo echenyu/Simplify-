@@ -10,4 +10,8 @@
 
 @interface contactPageViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIImageView *profileImage;
+@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+@property (nonatomic, strong) UIImage *profile;
+@property (nonatomic, strong) NSString *name;
 @end

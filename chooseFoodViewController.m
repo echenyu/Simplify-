@@ -14,6 +14,8 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationItem.rightBarButtonItem setImage:[UIImage imageNamed:@"home.png"]];
+    self.title = @"Meals";
+
 
 }
 
