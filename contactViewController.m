@@ -33,10 +33,20 @@
     self.pic4.layer.borderWidth = 3.0;
     self.pic4.layer.borderColor = [[UIColor whiteColor]CGColor];
 
-    self.unreadMessages.layer.cornerRadius = self.unreadMessages.frame.size.width / 2;
-    self.unreadMessages.clipsToBounds = YES;
+    
+    self.pic5.layer.cornerRadius = self.pic5.frame.size.width / 2;
+    self.pic5.clipsToBounds = YES;
+    self.pic5.layer.borderWidth = 3.0;
+    self.pic5.layer.borderColor = [[UIColor whiteColor]CGColor];
+
+    
+    self.pic6.layer.cornerRadius = self.pic6.frame.size.width / 2;
+    self.pic6.clipsToBounds = YES;
+    self.pic6.layer.borderWidth = 3.0;
+    self.pic6.layer.borderColor = [[UIColor whiteColor]CGColor];
+
+    
     // Do any additional setup after loading the view, typically from a nib.
-    self.numberUnread.text = @"10";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -70,8 +80,6 @@
     }
 }
 
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
-}
+
 
 @end

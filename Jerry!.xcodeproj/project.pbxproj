@@ -18,6 +18,25 @@
 		074392C81BA4EE4500203A91 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392C11BA4EE4500203A91 /* UIApplication+JTSImageViewController.m */; };
 		074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392C31BA4EE4500203A91 /* UIImage+JTSImageEffects.m */; };
 		074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 074392CC1BA4FBF800203A91 /* imagesViewController2.m */; };
+		074392FE1BA528D700203A91 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 074392FD1BA528D700203A91 /* home.png */; };
+		074393001BA529EA00203A91 /* Messageme.png in Resources */ = {isa = PBXBuildFile; fileRef = 074392FF1BA529EA00203A91 /* Messageme.png */; };
+		074393031BA52F3600203A91 /* messageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393021BA52F3600203A91 /* messageViewController.m */; };
+		074393051BA5317100203A91 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393041BA5317100203A91 /* Pizza.png */; };
+		074393091BA5321100203A91 /* Dumpling.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393061BA5321100203A91 /* Dumpling.png */; };
+		0743930A1BA5321100203A91 /* Generaltso.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393071BA5321100203A91 /* Generaltso.png */; };
+		0743930B1BA5321100203A91 /* mapotofu.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393081BA5321100203A91 /* mapotofu.png */; };
+		0743930F1BA5334700203A91 /* chickenalone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743930C1BA5334700203A91 /* chickenalone.png */; };
+		074393101BA5334700203A91 /* pizzaalone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743930D1BA5334700203A91 /* pizzaalone.png */; };
+		074393111BA5334700203A91 /* tofualone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0743930E1BA5334700203A91 /* tofualone.png */; };
+		074393131BA5336E00203A91 /* dumplingalone.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393121BA5336E00203A91 /* dumplingalone.png */; };
+		074393161BA5342D00203A91 /* greenoval.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393141BA5342D00203A91 /* greenoval.png */; };
+		074393171BA5342D00203A91 /* redoval.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393151BA5342D00203A91 /* redoval.png */; };
+		0743931A1BA534C900203A91 /* foodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393191BA534C900203A91 /* foodViewController.m */; };
+		074393211BA5358800203A91 /* chooseFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393201BA5358800203A91 /* chooseFoodViewController.m */; };
+		074393231BA5379E00203A91 /* Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393221BA5379E00203A91 /* Grace.png */; };
+		074393261BA537BA00203A91 /* maidLandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074393251BA537BA00203A91 /* maidLandingPageViewController.m */; };
+		074393291BA5382D00203A91 /* Rectangle 257.png in Resources */ = {isa = PBXBuildFile; fileRef = 074393281BA5382D00203A91 /* Rectangle 257.png */; };
+		0743932C1BA5449A00203A91 /* orderConfirmedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */; };
 		076D1B411BA3D25300415FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B401BA3D25300415FF3 /* main.m */; };
 		076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B431BA3D25300415FF3 /* AppDelegate.m */; };
 		076D1B471BA3D25300415FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076D1B461BA3D25300415FF3 /* ViewController.m */; };
@@ -60,6 +79,30 @@
 		074392C31BA4EE4500203A91 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "../../JTSImageViewController/Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		074392CB1BA4FBF800203A91 /* imagesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imagesViewController2.h; sourceTree = "<group>"; };
 		074392CC1BA4FBF800203A91 /* imagesViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imagesViewController2.m; sourceTree = "<group>"; };
+		074392FD1BA528D700203A91 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Images.xcassets/home.png; sourceTree = "<group>"; };
+		074392FF1BA529EA00203A91 /* Messageme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Messageme.png; path = Images.xcassets/Messageme.png; sourceTree = "<group>"; };
+		074393011BA52F3600203A91 /* messageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageViewController.h; sourceTree = "<group>"; };
+		074393021BA52F3600203A91 /* messageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageViewController.m; sourceTree = "<group>"; };
+		074393041BA5317100203A91 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pizza.png; path = Images.xcassets/Pizza.png; sourceTree = "<group>"; };
+		074393061BA5321100203A91 /* Dumpling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dumpling.png; path = Images.xcassets/Dumpling.png; sourceTree = "<group>"; };
+		074393071BA5321100203A91 /* Generaltso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Generaltso.png; path = Images.xcassets/Generaltso.png; sourceTree = "<group>"; };
+		074393081BA5321100203A91 /* mapotofu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapotofu.png; path = Images.xcassets/mapotofu.png; sourceTree = "<group>"; };
+		0743930C1BA5334700203A91 /* chickenalone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chickenalone.png; path = Images.xcassets/chickenalone.png; sourceTree = "<group>"; };
+		0743930D1BA5334700203A91 /* pizzaalone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizzaalone.png; path = Images.xcassets/pizzaalone.png; sourceTree = "<group>"; };
+		0743930E1BA5334700203A91 /* tofualone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tofualone.png; path = Images.xcassets/tofualone.png; sourceTree = "<group>"; };
+		074393121BA5336E00203A91 /* dumplingalone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dumplingalone.png; path = Images.xcassets/dumplingalone.png; sourceTree = "<group>"; };
+		074393141BA5342D00203A91 /* greenoval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenoval.png; path = Images.xcassets/greenoval.png; sourceTree = "<group>"; };
+		074393151BA5342D00203A91 /* redoval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redoval.png; path = Images.xcassets/redoval.png; sourceTree = "<group>"; };
+		074393181BA534C900203A91 /* foodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodViewController.h; sourceTree = "<group>"; };
+		074393191BA534C900203A91 /* foodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodViewController.m; sourceTree = "<group>"; };
+		0743931F1BA5358800203A91 /* chooseFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chooseFoodViewController.h; path = ../chooseFoodViewController.h; sourceTree = "<group>"; };
+		074393201BA5358800203A91 /* chooseFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = chooseFoodViewController.m; path = ../chooseFoodViewController.m; sourceTree = "<group>"; };
+		074393221BA5379E00203A91 /* Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Grace.png; path = Images.xcassets/Grace.png; sourceTree = "<group>"; };
+		074393241BA537BA00203A91 /* maidLandingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = maidLandingPageViewController.h; sourceTree = "<group>"; };
+		074393251BA537BA00203A91 /* maidLandingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maidLandingPageViewController.m; sourceTree = "<group>"; };
+		074393281BA5382D00203A91 /* Rectangle 257.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Rectangle 257.png"; path = "Images.xcassets/Rectangle 257.png"; sourceTree = "<group>"; };
+		0743932A1BA5449A00203A91 /* orderConfirmedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderConfirmedViewController.h; sourceTree = "<group>"; };
+		0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderConfirmedViewController.m; sourceTree = "<group>"; };
 		076D1B3B1BA3D25300415FF3 /* Jerry!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jerry!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076D1B3F1BA3D25300415FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		076D1B401BA3D25300415FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +165,8 @@
 			children = (
 				074392A11BA3FFCF00203A91 /* contactViewController.h */,
 				074392A21BA3FFCF00203A91 /* contactViewController.m */,
+				074393011BA52F3600203A91 /* messageViewController.h */,
+				074393021BA52F3600203A91 /* messageViewController.m */,
 				074392AD1BA4C16500203A91 /* contactPageViewController.h */,
 				074392AE1BA4C16500203A91 /* contactPageViewController.m */,
 			);
@@ -135,6 +180,28 @@
 				076D1B461BA3D25300415FF3 /* ViewController.m */,
 			);
 			name = "Landing Page";
+			sourceTree = "<group>";
+		};
+		0743931E1BA5356B00203A91 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				074393181BA534C900203A91 /* foodViewController.h */,
+				074393191BA534C900203A91 /* foodViewController.m */,
+				0743932A1BA5449A00203A91 /* orderConfirmedViewController.h */,
+				0743932B1BA5449A00203A91 /* orderConfirmedViewController.m */,
+				0743931F1BA5358800203A91 /* chooseFoodViewController.h */,
+				074393201BA5358800203A91 /* chooseFoodViewController.m */,
+			);
+			name = Food;
+			sourceTree = "<group>";
+		};
+		074393271BA537D700203A91 /* Maid Service */ = {
+			isa = PBXGroup;
+			children = (
+				074393241BA537BA00203A91 /* maidLandingPageViewController.h */,
+				074393251BA537BA00203A91 /* maidLandingPageViewController.m */,
+			);
+			name = "Maid Service";
 			sourceTree = "<group>";
 		};
 		076D1B321BA3D25300415FF3 = {
@@ -166,6 +233,8 @@
 				074392CE1BA4FF4600203A91 /* Contact */,
 				074392CF1BA4FF7200203A91 /* Landing Page */,
 				076D1B481BA3D25300415FF3 /* Main.storyboard */,
+				074393271BA537D700203A91 /* Maid Service */,
+				0743931E1BA5356B00203A91 /* Food */,
 				074392CB1BA4FBF800203A91 /* imagesViewController2.h */,
 				074392CC1BA4FBF800203A91 /* imagesViewController2.m */,
 				076D1B4B1BA3D25300415FF3 /* Images.xcassets */,
@@ -178,6 +247,20 @@
 		076D1B3E1BA3D25300415FF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				074393281BA5382D00203A91 /* Rectangle 257.png */,
+				074393221BA5379E00203A91 /* Grace.png */,
+				074393141BA5342D00203A91 /* greenoval.png */,
+				074393151BA5342D00203A91 /* redoval.png */,
+				074393121BA5336E00203A91 /* dumplingalone.png */,
+				0743930C1BA5334700203A91 /* chickenalone.png */,
+				0743930D1BA5334700203A91 /* pizzaalone.png */,
+				0743930E1BA5334700203A91 /* tofualone.png */,
+				074392FF1BA529EA00203A91 /* Messageme.png */,
+				074393061BA5321100203A91 /* Dumpling.png */,
+				074393071BA5321100203A91 /* Generaltso.png */,
+				074393081BA5321100203A91 /* mapotofu.png */,
+				074392FD1BA528D700203A91 /* home.png */,
+				074393041BA5317100203A91 /* Pizza.png */,
 				076D1B3F1BA3D25300415FF3 /* Info.plist */,
 				076D1B401BA3D25300415FF3 /* main.m */,
 			);
@@ -303,9 +386,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074393291BA5382D00203A91 /* Rectangle 257.png in Resources */,
+				074393051BA5317100203A91 /* Pizza.png in Resources */,
+				074393161BA5342D00203A91 /* greenoval.png in Resources */,
+				074392FE1BA528D700203A91 /* home.png in Resources */,
+				074393171BA5342D00203A91 /* redoval.png in Resources */,
+				074393001BA529EA00203A91 /* Messageme.png in Resources */,
+				074393101BA5334700203A91 /* pizzaalone.png in Resources */,
+				074393091BA5321100203A91 /* Dumpling.png in Resources */,
+				074393111BA5334700203A91 /* tofualone.png in Resources */,
 				076D1B4A1BA3D25300415FF3 /* Main.storyboard in Resources */,
+				0743930A1BA5321100203A91 /* Generaltso.png in Resources */,
+				074393131BA5336E00203A91 /* dumplingalone.png in Resources */,
+				0743930B1BA5321100203A91 /* mapotofu.png in Resources */,
 				076D1B4F1BA3D25300415FF3 /* LaunchScreen.xib in Resources */,
 				076D1B4C1BA3D25300415FF3 /* Images.xcassets in Resources */,
+				074393231BA5379E00203A91 /* Grace.png in Resources */,
+				0743930F1BA5334700203A91 /* chickenalone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,17 +454,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				076D1B471BA3D25300415FF3 /* ViewController.m in Sources */,
+				074393031BA52F3600203A91 /* messageViewController.m in Sources */,
 				074392C51BA4EE4500203A91 /* JTSImageInfo.m in Sources */,
 				074392A31BA3FFCF00203A91 /* contactViewController.m in Sources */,
 				076D1B441BA3D25300415FF3 /* AppDelegate.m in Sources */,
 				074392CD1BA4FBF800203A91 /* imagesViewController2.m in Sources */,
 				076D1B411BA3D25300415FF3 /* main.m in Sources */,
 				074392C61BA4EE4500203A91 /* JTSImageViewController.m in Sources */,
+				0743931A1BA534C900203A91 /* foodViewController.m in Sources */,
 				074392C41BA4EE4500203A91 /* JTSAnimatedGIFUtility.m in Sources */,
 				074392C91BA4EE4500203A91 /* UIImage+JTSImageEffects.m in Sources */,
+				074393211BA5358800203A91 /* chooseFoodViewController.m in Sources */,
 				074392C71BA4EE4500203A91 /* JTSSimpleImageDownloader.m in Sources */,
 				074392AF1BA4C16500203A91 /* contactPageViewController.m in Sources */,
+				074393261BA537BA00203A91 /* maidLandingPageViewController.m in Sources */,
 				074392C81BA4EE4500203A91 /* UIApplication+JTSImageViewController.m in Sources */,
+				0743932C1BA5449A00203A91 /* orderConfirmedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
